@@ -35,6 +35,33 @@ python src/main.py
 - `--intersect-daly INTERSECT_DALY`: Custom Y-axis intersection (DALY). Overrides median.
 - `--num NUM`: Filter to top N diseases by combined DALY and Prevalence score.
 
+## Project layout
+
+```
+daly_prev/
+├── README.md            # this description
+├── requirements.txt     # stuff Python needs
+├── src/
+│   ├── __init__.py
+│   ├── cli.py           # parse command-line args
+│   ├── io_utils.py      # loading + saving functions
+│   ├── processing.py    # normalise, merge, filter helpers
+│   ├── plotter.py       # plotting function
+│   └── main.py          # script entrypoint
+├── data/
+│   ├── daly_data_combined.tsv # DALY data
+│   └── prev_data_combined.tsv # Prevalence data
+└── runs/
+    └── 1764328969       # Each time you run a UNIX time folder is created
+        ├── daly_vs_prev_median.png # example plot file
+        ├── REPORT_MEDIAN.md        # example markdown report
+        ├── Median_China_France_Germany_Italy_Spain_United Kingdom_Global_2022-2050_report.pdf # example PDF report
+        └── high_high_exports_median/
+            ├── high_high_Acne_vulgaris.csv # pooled data for each disease
+            ├── high_high_Cardiomyopathy_and_myocarditis.csv
+            ...
+            └── high_high_Viral_skin_diseases.csv
+```
 
 ### Examples
 
