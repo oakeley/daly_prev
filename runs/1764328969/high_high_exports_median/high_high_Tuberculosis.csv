@@ -1,0 +1,2 @@
+Condition,Sex,Age,Location,Measure_daly,Unit_daly,Forecast Scenario_daly,Year,Value_daly,Lower_daly,Upper_daly,Data Suite_daly,DA_daly,Measure_prev,Unit_prev,Forecast Scenario_prev,Value_prev,Lower_prev,Upper_prev,Data Suite_prev,DA_prev
+Tuberculosis,Both,All Ages,China,DALYs,"Rate (per 100,000)",Past estimate,2022,0.0009478968491425999,0.0007806907971938,0.0012025343031040001,GBD,Infectious Diseases,Prevalence,"Rate (per 100,000)",Past estimate,0.34581286,0.31398675,0.37921849999999996,GBD,Infectious Diseases

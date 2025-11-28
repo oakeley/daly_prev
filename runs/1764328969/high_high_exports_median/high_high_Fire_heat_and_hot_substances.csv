@@ -1,0 +1,2 @@
+Condition,Sex,Age,Location,Measure_daly,Unit_daly,Forecast Scenario_daly,Year,Value_daly,Lower_daly,Upper_daly,Data Suite_daly,DA_daly,Measure_prev,Unit_prev,Forecast Scenario_prev,Value_prev,Lower_prev,Upper_prev,Data Suite_prev,DA_prev
+"Fire, heat, and hot substances",Both,All Ages,France,DALYs,"Rate (per 100,000)",Past estimate,2022,0.0007217558110118,0.0004796121528258,0.0010708402514690001,GBD,Other,Prevalence,"Rate (per 100,000)",Past estimate,0.03205441,0.026499989999999998,0.038395394,GBD,Other
